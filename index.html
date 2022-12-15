@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Lorem Ipsum</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="fas fa-home nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="fas fa-user nav_icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="fas fa-file nav_icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services " class="nav_link">
+                            <i class="fas fa-briefcase nav_icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="fas fa-image nav_icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contactme" class="nav_link">
+                            <i class="fas fa-message nav_icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-close nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <!-- Theme change button -->
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="fas fa-grip"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home_img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                
+                                <image class="home_blob-img" x="5" y="20" xlink:href="assets/images/profile.png"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, I'am Lorem Ipsum</h1>
+                        <h3 class="home_subtitle">Front-End Developer</h3>
+                        <p class="home_description">Moderate level experience in web design and development.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="fas fa-paper-plane button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex">
+                        <i class="fas fa-mouse home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll down <i class="fas fa-arrow-down home_scroll-arrow"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <span class="section_subtitle">My Introduction</span>
+
+            <div class="about_container container grid">
+                <img src="assets/images/profile.png" alt="" class="about_img">
+                <p class="about_description">A student who is enthusiastic in learning about web technologies.</p>
+                <div class="about_info">
+                    <div>
+                        <span class="about_info-title">03+</span>
+                        <span class="about_info-name">Years <br> experience</span>
+                    </div>
+                    <div>
+                        <span class="about_info-title">05+</span>
+                        <span class="about_info-name">Completed <br> project</span>
+                    </div>
+                    <div>
+                        <span class="about_info-title">1</span>
+                        <span class="about_info-name">Companies <br> worked</span>
+                    </div>
+                </div>
+
+                <div class="about_buttons">
+                    <a download="" href="#" class="button button--flex">
+                        Download CV <i class="fas fa-download button_icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <span class="section_subtitle">My technical level</span>
+
+            <div class="skills_container container grid">
+                <div>
+                    <!-- skill1  -->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="fas fa-laptop-code skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_titles">Front-End Developer</h1>
+                                <span class="skills_subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="fas fa-chevron-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Javascript</h3>
+                                    <span class="skills_number">65%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- skill2  -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fas fa-database skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_titles">Back-End Developer</h1>
+                                <span class="skills_subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="fas fa-chevron-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">PHP</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_PHP"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">SQL</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Firebase</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_firebase"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+
+                    <!-- skill3  -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fas fa-photo-film skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_titles">Other Digital Product</h1>
+                                <span class="skills_subtitle">1 year</span>
+                            </div>
+
+                            <i class="fas fa-chevron-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Adobe Premiere Pro</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_app"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Photoshop</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_photoshop"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Blender</h3>
+                                    <span class="skills_number">65%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_blender"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section" id="qualification">
+            <h2 class="section_title">Qualification</h2>
+            <span class="section_subtitle">My Personal Journey</span>
+
+            <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualification_button button--flex qualification_active" data-target="#education">
+                        <i class="fas fa-graduation-cap qualification_icon"></i> Education
+                    </div>
+
+                    <div class="qualification_button button--flex" data-target="#work">
+                        <i class="fas fa-briefcase qualification_icon"></i> Work
+                    </div>    
+                </div>
+
+                <div class="qualification_sections">
+                    <!-- qualification content 1 -->
+                    <div class="qualification_content qualification_active" data-content id="education">
+                        <!-- qualification 1 -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualtification_title">Software Engineering</h3>
+                                <span class="qualification_subtitle">Indonesia - SMKN 1 Depok</span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar"></i>
+                                    2017 - 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                        <!-- qualification 2 -->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualtification_title">Informatics Engineering</h3>
+                                <span class="qualification_subtitle">Indonesia - Esa Unggul University</span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar"></i>
+                                    2020 - present
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- qualification content 2 -->
+                    <div class="qualification_content" data-content id="work">
+                        <!-- qualification 1 -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualtification_title">Software Engineer</h3>
+                                <span class="qualification_subtitle">Indonesia - Intern at UmroTix </span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar"></i>
+                                    2019 - 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                        <!-- qualification 2 -->
+                        <div class="qualification_data">
+                            <div></div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualtification_title">Content Creator</h3>
+                                <span class="qualification_subtitle">Indonesia - YouTube</span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar"></i>
+                                    2022 - present
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- qualification 3 -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualtification_title">Technical Support</h3>
+                                <span class="qualification_subtitle">Indonesia - Google Developer Stundet Club</span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar"></i>
+                                    2022 - present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h3 class="section_title">Services</h3>
+            <span class="section_subtitle">What i was doing</span>
+
+            <div class="services_container container grid">
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services_content">
+                    <div>
+                        <i class="fas fa-wrench services_icon"></i>
+                        <h3 class="services_title">Front End <br>Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        View more
+                        <i class="fas fa-chevron-right button_icon"></i>
+                    </span>
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Frontend <br>Design</h4>
+                            <i class="fas fa-close services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Develop website & mobile app interface.</p>
+                                </li>
+                                <li class="services_modal-services">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Make sure every website has easy accesibilty when it's loaded</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Fetch data from backend to deliver it in html/css component</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services_content">
+                    <div>
+                        <i class="fas fa-wrench services_icon"></i>
+                        <h3 class="services_title">Backend <br>System</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        View more
+                        <i class="fas fa-chevron-right button_icon"></i>
+                    </span>
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Backend <br>System</h4>
+                            <i class="fas fa-close services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Develop API that's able to give tidy response</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Design effective database by given purpose</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Secure traffic of data from frontend to backend system</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 3 ====================-->
+
+                <div class="services_content">
+                    <div>
+                        <i class="fas fa-wrench services_icon"></i>
+                        <h3 class="services_title">Digital Production</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        View more
+                        <i class="fas fa-chevron-right button_icon"></i>
+                    </span>
+                    
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Digital <br>Production</h4>
+                            <i class="fas fa-close services_modal-close"></i>
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eum tenetur vero</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fas fa-circle-check services_modal-icon"></i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Most recent work</span>
+
+            <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- portfolio1 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/images/thumbnail.jpg" alt="portfolio1" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Lorem, ipsum.</h3>
+                            <p class="portfolio_description">Lorem ipsum dolor sit amet.</p>
+                            <a href="#" target="_blank" class="button button--flex button--small portfolio_button">Demo <i class="fas fa-chevron-right button_icon"></i></a>
+                        </div>
+                    </div>
+                    <!-- portfolio2 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/images/thumbnail.jpg" alt="portfolio1" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Lorem, ipsum.</h3>
+                            <p class="portfolio_description">Lorem ipsum dolor sit amet.</p>
+                            <a href="#" target="_blank" class="button button--flex button--small portfolio_button">Demo <i class="fas fa-chevron-right button_icon"></i></a>
+                        </div>
+                    </div>
+                    <!-- portfolio3 -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/images/thumbnail.jpg" alt="portfolio1" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Lorem, ipsum.</h3>
+                            <p class="portfolio_description">Lorem ipsum dolor sit amet.</p>
+                            <a href="#" target="_blank" class="button button--flex button--small portfolio_button">Demo <i class="fas fa-chevron-right button_icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fas fa-chevron-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-chevron-left swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- project in mind -->
+        <section class="project section">
+            <div class="project_bg">
+                <div class="project_container container grid">
+                    <div class="project_data">
+                        <h2 class="project_title">Wanna discuss some project?</h2>
+                        <p class="project_description">hit me up and make it happened</p>
+                        <a href="#contact" class="button button--flex button--white">Contact me <i class="fas fa-phone project_icon button_icon"></i></a>
+                    </div>
+                    <img src="assets/images/profile.png" alt="" class="project_img">
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- testimonial -->
+        <section class="section testimonial" id="testimonial">
+            <h2 class="section_title">Testimonial</h2>
+            <span class="section_subtitle">Lorem, ipsum dolor.</span>
+
+            <div class="container testimonial_container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- TESTIMONIAL 1 -->
+                    <div class="testimonial_content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/images/thumbnail.jpg" alt="" class="testimonial_img">
+                                <div>
+                                    <h3 class="testimonial_name">Lorem, ipsum dolor.</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iure repellat cum ullam dicta ea ut est, quibusdam delectus impedit.</p>
+
+                    </div>
+                    <!-- TESTIMONIAL 2 -->
+                    <div class="testimonial_content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/images/thumbnail.jpg" alt="" class="testimonial_img">
+                                <div>
+                                    <h3 class="testimonial_name">Lorem, ipsum dolor.</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                                <i class="fas fa-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iure repellat cum ullam dicta ea ut est, quibusdam delectus impedit.</p>
+
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section class="contact section" id="contactme">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">I am waiting for you</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="fas fa-phone contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="contact_subtitle">0812-2313-6424</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="fas fa-envelope contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Email Me</h3>
+                            <span class="contact_subtitle">loremipsum@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                            <i class="fas fa-at contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">DM Me</h3>
+                                <span class="contact_subtitle"><a href="www.instagram.com" target="_blank">@loremipsum</a></span>
+                            </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Project</label>
+                        <input type="text" class="contact_input">
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="" class="button button--flex">
+                            Send
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Lorem Ipsum</h1>
+                    <span class="footer_subtitle">Software Engineer</span>
+                </div>
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://discord.gg/" target="_blank" class="footer_social">
+                        <i class="fa-brands fa-discord"></i>    
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="footer_social">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">Lorem Ipsum. All right reserved</p>
+        </div>
+    </footer>
+
+    <!-- scroll top -->
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class="fas fa-chevron-up scrollup_icon"></i>
+    </a>
+
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
